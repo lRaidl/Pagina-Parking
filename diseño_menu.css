@@ -1,0 +1,150 @@
+
+@charset "utf-8";
+
+/*Aqui agregan las fuentes en caso de querer usar más las pueden sacar de esta pagina
+ "https://fonts.google.com/?sidebar.open=true&selection.family=Alata" me preguntan cualquier duda */
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body{
+    margin: 0%;
+    background-color: rgb(0,0,0);
+    
+}
+body{
+	font-family: arial, helvetica;
+	
+}
+
+div#barra-lateral{
+    position:fixed;
+    z-index: 1;
+	width:60px;
+	height:100%;
+	background-color:rgba(255, 255, 255, 0.1);
+	overflow:hidden;
+    -webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+    padding: 0px;
+}
+
+div#barra-lateral:hover{
+    width:170px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+div#logo-menu{
+	width:40px;
+	height:40px;
+	margin:10px;
+	background-image:url(imagenes/menu.png);
+}
+
+div#contenedor-logos-primero{
+    margin-top:70px;
+    margin-bottom: 20px;
+}
+
+div.contenedor-logos{
+	margin-top:20px;
+	margin-left:10px;
+	width:130px;
+    height:40px;
+}
+
+div.logo{
+	width:40px;
+	height:40px;
+	background-image:url(pictures/menu.png);
+	float: left;
+}
+
+a.title-menu{
+	margin-left:50px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0,0,0)   ;
+    text-decoration: none;
+}
+
+
+
+
+
+/*body*/
+
+div#body{
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:170px;
+}
+
+div#texto{
+	width:50%;
+	min-height:300px;
+	float:left;
+}
+
+
+ #logo{
+
+    width: 230px;
+    padding: 0%;
+    margin-top: -83px;
+    margin-left: 1100px;
+    position: absolute;
+ }
+footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    
+}
+
+#redes{
+    margin: 0px; 
+    margin-left: 30px;
+    
+    font-family: 'Alata', sans-serif;
+    
+}
+
+ #FB{
+     width: 60px;
+     margin-left: 140px;
+     margin-top: 25px;
+     text-decoration: none;
+
+    }
+
+ #IG{
+     width: 77px;
+     margin-left: 30px;
+     text-decoration: none;
+ }
+
+ #WPP{
+     width: 60px;
+     margin-left: 30px;
+     text-decoration: none;
+ }
+
+ #comunicate{
+     font-size: 20px;
+     padding:0px 0px;
+     margin-left: 930px;
+     margin-bottom: 0px;
+     position: absolute;
+ }
+ 
+/*Todo lo que esta arriba de esto es la parte del diseño de la pagina de la plantilla con el pie de pagina
+y el menu, no hace falta tocar nada de ahi amenos que haya algun problema inesperado. A partir de aqui empiezan
+a hacer su programacion del diseño*/
+
+
+
+
+
+

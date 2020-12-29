@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+#fondo{
+    width: 100%;
+    margin-bottom: 0%;
+    height: 660px;
+}
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: -25px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: 0.75;
+	margin: 10px 0;
+}

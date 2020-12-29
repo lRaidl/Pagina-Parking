@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+
+
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.templatemo_contact {
+    margin: 30px;
+    width: 100%;
+    margin-left: 15%;
+}
+
+.templatemo_contactform input, textarea {
+    width: 70%;
+    background: #282828;
+    border: 1px solid #393939;
+    border-radius: 15px;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    margin-left: 170px;
+    background-color: #FAFAFA;
+}
+
+.templatemo_contactform textarea {
+    height: 100px;
+}
+
+
+.templatemo_contactform .btn-primary {
+    background: #242ebf;
+    border: none;
+    border-radius: 15px;
+    color: #1b0256;
+    font-weight: 800;
+    margin-bottom: 100px;
+    margin-left: 170px;
+    width: 100px;
+    height: 30px;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #d82c2c;
+}
+
+#envia{
+    margin-left: 170px;
+}
